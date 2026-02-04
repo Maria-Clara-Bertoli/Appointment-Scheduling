@@ -10,15 +10,11 @@ This repository contains the implementation of a **medical appointment schedulin
 
 📋 The application was developed using the **Python** programming language, and **data persistence and retrieval** are performed using **JSON files**.
 
----
-
 ## ⚙️ Features
 
 - 📋 Insert and list patient records  
 - 🔁 Communication between REST APIs to ensure separation of responsibilities  
 - 💾 Data persistence using **JSON files**
-
----
 
 ## 🛠️ Technologies Used
 
