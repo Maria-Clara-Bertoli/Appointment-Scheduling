@@ -1,19 +1,27 @@
-# 🩺 Aplicação de Agendamento de Consultas Com APIs REST
+# 🩺 Medical Appointment Scheduling Application with REST APIs
 
-Este repositório contém a implementação de uma aplicação para **agendamento de consultas** com APIs REST, focada na parte de **cadastro de pacientes**.
+This repository contains the implementation of a **medical appointment scheduling application** based on **REST APIs**, with a focus on **patient registration**.
 
-✅ A estrutura da implementação consiste em **duas APIs REST**: uma responsável pela parte de **modelo** e outra responsável pela **persistência e consulta dos dados**.
+✅ The application architecture consists of **two REST APIs**:  
+- One responsible for the **model layer**  
+- Another responsible for **data persistence and data retrieval**
 
-👩🏻 O **usuário** realiza solicitações de **inserção** ou **listagem** para a API de modelo, que por sua vez encaminha a requisição para o **endpoint** correspondente da API de persistência e consulta dos dados.
+👩🏻 The **user** sends **insert** or **list** requests to the model API, which then forwards the request to the corresponding **endpoint** of the data persistence and query API.
 
-📋 A implementação foi realizada utilizando a linguagem **Python** e a **persistência e cosulta dos dados** foi efetuada em arquivos **JSON**.
+📋 The application was developed using the **Python** programming language, and **data persistence and retrieval** are performed using **JSON files**.
 
-## ⚙️ Funcionalidades
-- 📋 Inserção e listagem de registros de pacientes
-- 🔁 Comunicação entre APIs REST para separação de responsabilidades
-- 💾 Persistência dos dados em arquivos **JSON**
+---
 
-## 🛠️ Tecnologias Utilizadas
-- Python 🐍
-- FastAPI para criação das APIs 🚀
-- Arquivos JSON para a persistência dos dados 📄
+## ⚙️ Features
+
+- 📋 Insert and list patient records  
+- 🔁 Communication between REST APIs to ensure separation of responsibilities  
+- 💾 Data persistence using **JSON files**
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 🐍  
+- FastAPI for building REST APIs 🚀  
+- JSON files for data persistence 📄 
